@@ -1,0 +1,106 @@
+go to the kitchen
+go to the living room
+go to the dining room
+find the bottle
+find the fruit
+find the papers
+find the plates
+find the recycling bin
+find the trash bin
+find the compost bin
+get the bottle
+get the fruit
+get the papers
+get the plates
+put the bottle in the recycling bin
+put the bottle in the trash bin
+put the bottle in the compost bin
+put the fruit in the recycling bin
+put the fruit in the trash bin
+put the fruit in the compost bin
+put the papers in the recycling bin
+put the papers in the trash bin
+put the papers in the compost bin
+put the plates in the recycling bin
+put the plates in the trash bin
+put the plates in the compost bin
+move the bottle to the kitchen
+move the bottle to the living room
+move the bottle to the dining room
+move the fruit to the kitchen
+move the fruit to the living room
+move the fruit to the dining room
+move the papers to the kitchen
+move the papers to the living room
+move the papers to the dining room
+move the plates to the kitchen
+move the plates to the living room
+move the plates to the dining room
+bottle is in the kitchen
+bottle is in the living room
+bottle is in the dining room
+fruit is in the kitchen
+fruit is in the living room
+fruit is in the dining room
+papers is in the kitchen
+papers is in the living room
+papers is in the dining room
+plates is in the kitchen
+plates is in the living room
+plates is in the dining room
+trash bin is in the kitchen
+trash bin is in the living room
+trash bin is in the dining room
+recycling bin is in the kitchen
+recycling bin is in the living room
+recycling bin is in the dining room
+compost bin is in the kitchen
+compost bin is in the living room
+compost bin is in the dining room
+i moved the bottle to the kitchen
+i moved the bottle to the living room
+i moved the bottle to the dining room
+i moved the fruit to the kitchen
+i moved the fruit to the living room
+i moved the fruit to the dining room
+i moved the papers to the kitchen
+i moved the papers to the living room
+i moved the papers to the dining room
+i moved the plates to the kitchen
+i moved the plates to the living room
+i moved the plates to the dining room
+there will be bottle in the kitchen later
+there will be bottle in the living room later
+there will be bottle in the dining room later
+there will be fruit in the kitchen later
+there will be fruit in the living room later
+there will be fruit in the dining room later
+there will be papers in the kitchen later
+there will be papers in the living room later
+there will be papers in the dining room later
+there will be plates in the kitchen later
+there will be plates in the living room later
+there will be plates in the dining room later
+pedal to open the trash bin
+grasp to open the trash bin
+lift to open the trash bin
+pedal to open the recycling bin
+grasp to open the recycling bin
+lift to open the recycling bin
+pedal to open the compost bin
+grasp to open the compost bin
+lift to open the compost bin
+open the trash bin
+open the trash bin
+open the trash bin
+open the recycling bin
+open the recycling bin
+open the recycling bin
+open the compost bin
+open the compost bin
+open the compost bin
+no, turn around
+spill near the trash bin
+spill near the recycling bin
+spill near the compost bin
+i cleaned the spill

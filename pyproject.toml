@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "homegrid"
+version = "0.1.0"
+description = "A minimal home gridworld environment to test how agents use language hints."
+authors = ["Jessy Lin <jessy81697@gmail.com>"]
+readme = "README.md"
+keywords = ["environment", "agent", "rl", "language"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+gym = { version = "0.26" }
+numpy = "*"
+matplotlib = "*"
+tokenizers = "*"
+sentencepiece = "*"
+transformers = { version = "*", optional = true }
+torch = { version = "*", optional = true }
+
+[tool.poetry.extras]
+# For pre-embedding new sentences
+dev = ["transformers", "torch"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
