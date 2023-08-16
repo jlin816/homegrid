@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "homegrid"
-version = "0.1.0"
+version = "0.1.1"
 description = "A minimal home gridworld environment to test how agents use language hints."
 authors = ["Jessy Lin <jessy81697@gmail.com>"]
 readme = "README.md"

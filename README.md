@@ -26,6 +26,7 @@ HomeGrid tests whether agents can learn to use language that provides informatio
 
 ### ⚡️ Quick Info
 - pixel observations (3x3 partial view of the house)
+- both one-hot and token embedding observations available
 - discrete action space (movement + object interaction)
 - 3 rooms, 7 objects (3 trash bins, 4 trash objects)
 - multitask with language instructions + hints
@@ -51,7 +52,18 @@ HomeGrid tests whether agents can learn to use language that provides informatio
 
 Environment instances are provided for task instruction + each of the types above in `homegrid/__init__.py`.
 
-Language is streamed one token per timestep by default. Some strings are higher priority than others and may interrupt a string that is currently being read. See `homegrid/language_wrappers.py`.
+Language is provided by `homegrid/language_wrappers.py` and streamed one token per timestep by default. Both token IDs and token embeddings are provided in the observation, using the [T5](https://arxiv.org/abs/1910.10683) tokenizer and encoder model. The original paper introducing HomeGrid uses the token IDs.
+Some strings are higher priority than others and may interrupt a string that is currently being read. By default, the environment will stream some hints that apply to a whole episode during the first timesteps, while the agent does not move. See `homegrid/language_wrappers.py` for details.
+
+### Observation Space
+
+For the full HomeGrid environment with language:
+
+- `image (uint8 (96, 96, 3))`: pixel agent-centric local view
+- `token (int)`: T5 token ID of the token at the current timestep
+- `token_embed (float32 (512,))`: T5 embedding of the token at the current timestep
+- `is_read_step (bool)`: for logging, `True` if agent is reading strings before the episode begins
+- `log_language_info (str)`: for logging, human-readable text for the string currently being streamed
 
 # 💻 Development
 
