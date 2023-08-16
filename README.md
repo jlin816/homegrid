@@ -1,4 +1,4 @@
-![banner](banner.png)
+![](https://github.com/jlin816/homegrid/raw/main/banner.png)
 
 <p align="center" font-weight="bold">
 A minimal home grid world environment to evaluate language understanding in interactive agents.
@@ -48,14 +48,14 @@ HomeGrid tests whether agents can learn to use language that provides informatio
     - _"`action` to open the `bin`"_: the indicated action is the correct action to open the bin
 - **Corrections**: interactive, task-specific feedback based on what the agent is currently doing, such as "Turn around."
     - _"no, turn around"_: the agent's distance to the current goal object or bin (given the task) has increased compared to the last timestep
- 
+
 Environment instances are provided for task instruction + each of the types above in `homegrid/__init__.py`.
- 
+
 Language is streamed one token per timestep by default. Some strings are higher priority than others and may interrupt a string that is currently being read. See `homegrid/language_wrappers.py`.
 
 # 💻 Development
 
-New development and extensions to the environment are welcome! 
+New development and extensions to the environment are welcome!
 
 ### Adding new language utterances
 
