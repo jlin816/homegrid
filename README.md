@@ -8,8 +8,8 @@ A minimal home grid world environment to evaluate language understanding in inte
 
 Play as a human:
 ```bash
-$ pip install -e .
-$ ./homegrid/manual_control.py
+pip install homegrid
+./homegrid/manual_control.py
 ```
 
 Use as a gym environment:
